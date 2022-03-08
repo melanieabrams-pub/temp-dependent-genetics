@@ -14,25 +14,25 @@ infile='TajimaD_by-gene_3Brazil.tsv'
 essential_file='essential.csv' #essential genes - from Winzeler et al., 1999
 
 
-figname='3Brazil_TD_resample_barseq_tophits.png'
-goi=['YGR198W', 'YMR207C', 'YGL082W', 'YNL049C', 'YDL035C', 'YDR508C', 'YBR136W',
- 'YML099C', 'YPL254W', 'YIL152W', 'YKL017C', 'YGR140W', 'YJR127C', 'YDR375C',
- 'YOR091W', 'YLR397C', 'YNL132W', 'YMR078C', 'YLR422W', 'YMR125W', 'YOR371C',
- 'YMR094W', 'YMR167W', 'YDR103W', 'YDR318W', 'YAL026C', 'YDR180W', 'YOR092W',
- 'YDR235W', 'YER151C', 'YMR275C', 'YKL114C', 'YOL081W', 'YPR049C', 'YGL095C',
- 'YDR456W', 'YKL197C', 'YIL068C', 'YOR326W', 'YNR045W', 'YJR107W', 'YPL268W',
- 'YJL062W', 'YCR042C'] #barseq_tophits
-
-figname='3Brazil_TD_resample_popgen_hits.png'
-goi=['YGR098C','YMR168C','YKR054C', 'YPL174C','YPR164W','YCR042C','YMR016C',
-     'YJR135C','YJL025W','YDR443C','YLR397C','YHR023W','YDR180W','YKL134C'] #popgen_hits
-
+##figname='3Brazil_TD_resample_barseq_tophits.png'
+##goi=['YGR198W', 'YMR207C', 'YGL082W', 'YNL049C', 'YDL035C', 'YDR508C', 'YBR136W',
+## 'YML099C', 'YPL254W', 'YIL152W', 'YKL017C', 'YGR140W', 'YJR127C', 'YDR375C',
+## 'YOR091W', 'YLR397C', 'YNL132W', 'YMR078C', 'YLR422W', 'YMR125W', 'YOR371C',
+## 'YMR094W', 'YMR167W', 'YDR103W', 'YDR318W', 'YAL026C', 'YDR180W', 'YOR092W',
+## 'YDR235W', 'YER151C', 'YMR275C', 'YKL114C', 'YOL081W', 'YPR049C', 'YGL095C',
+## 'YDR456W', 'YKL197C', 'YIL068C', 'YOR326W', 'YNR045W', 'YJR107W', 'YPL268W',
+## 'YJL062W', 'YCR042C'] #barseq_tophits
+##
+##figname='3Brazil_TD_resample_popgen_hits.png'
+##goi=['YGR098C','YMR168C','YKR054C', 'YPL174C','YPR164W','YCR042C','YMR016C',
+##     'YJR135C','YJL025W','YDR443C','YLR397C','YHR023W','YDR180W','YKL134C'] #popgen_hits
+##
 ##figname='3Brazil_TD_resample_Weiss_goi.png'
 ##goi=['YLR397C','YGR098C','YKR054C','YHR023W',
 ##     'YDR180W','YCR042C','YNL172W','YMR168C'] #thermotolerance loci from Weiss et al 2018
 
-##figname='3Brazil_TD_resample_shortcomm_goi.png'
-##goi=['YLR397C','YGR098C','YHR023W','YMR168C'] #top 4 thermotolerance loci from Weiss et al 2018
+figname='3Brazil_TD_resample_shortcomm_goi.png'
+goi=['YLR397C','YGR098C','YHR023W','YMR168C'] #top 4 thermotolerance loci from Weiss et al 2018
 
 
 ##FUNCTIONS###
